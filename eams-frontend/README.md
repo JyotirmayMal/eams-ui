@@ -1,16 +1,67 @@
-# React + Vite
+Employee & Asset Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional Employee & Asset Management System (EAMS) built with Spring Boot REST APIs and a React + Vite SPA. The application provides a centralized platform for managing employees, departments, assets, payroll, and employee-asset assignments.
 
-Currently, two official plugins are available:
+📑 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The Employee & Asset Management System is designed to simplify workforce and organizational asset management through a single application.
 
-## React Compiler
+The system provides REST APIs for:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Employee management
+Asset management
+Employee-asset assignment
+Payroll management
+Employee search and department filtering
+Asset status filtering
+Payroll lookup by employee and salary period
+Asset assignment history
 
-## Expanding the ESLint configuration
+The frontend is built as a lightweight React SPA using Vite, providing a clean and professional dashboard-style interface.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🖥️ Frontend Features
+
+The React SPA provides a dashboard-oriented interface with pages such as:
+
+Dashboard
+│
+├── Employees
+│   ├── Employee List
+│   ├── Add Employee
+│   └── Edit Employee
+│
+├── Assets
+│   ├── Asset List
+│   ├── Add Asset
+│   └── Edit Asset
+│
+├── Employee Assets
+│   ├── Assign Asset
+│   └── Assignment History
+│
+└── Payroll
+    ├── Payroll List
+    └── Employee Payroll
+
+The UI is designed to be:
+
+Simple
+Professional
+Responsive
+Easy to navigate
+Suitable for an enterprise management application
+
+👨‍💻 Author
+
+Jyotirmay
+
+Software Engineer
+
+Technologies:
+
+Java | Spring Boot | React | MySQL | Hibernate
+Git | GitHub Actions | Docker | AWS
+
+📄 License
+
+This project is intended for educational, portfolio and demonstration purposes.
